@@ -1,6 +1,6 @@
 # Marionette Mapping Tutorial
 
-The source code provided should be viewed in conjunction with [this tutorial](http://rgeob.com/TODO). While the content of the website is not instrumental in the purpose of this repository, for those interested, it is the initial development stages for a product being developed for the Engineering Reserach & Development Center of the Corps of Engineers. It is used as a decision-making tool for creating sediment "budgets". Basically for nerds that need to estimate past/future sediment quantities moving around important coastal inlets. This is by no means a finished product and should not be seen as one.
+The source code provided should be viewed in conjunction with [this tutorial](http://rgeob.com/blog/2013/03/19/marionette-inlets). While the content of the website is not instrumental in the purpose of this repository, for those interested, it is the initial development stages for a product being developed for the Engineering Reserach & Development Center of the Corps of Engineers. It is used as a decision-making tool for creating sediment "budgets". Basically for nerds that need to estimate past/future sediment quantities moving around important coastal inlets. This is by no means a finished product and should not be seen as one.
 
 ## Installation instructions
 
