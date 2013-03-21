@@ -47,14 +47,14 @@ RPAT.module('Sidebar', function(Sidebar, App, Backbone, Marionette, $, _) {
     Sidebar.addInitializer(function(options) {
         //Once map has been initialized, launch an InletList controller
         App.vent.on('map:init', function(map){
-            var inletListController = new Sidebar.Controller(map, options.inletConfig);
+            var sideBarController = new Sidebar.Controller(map, options.inletConfig);
             new Sidebar.Router({
-                controller: inletListController
+                controller: sideBarController
             }, this);
             App.vent.on('inlet:onClick', function(args){
                 this.inletList.toggleHighlight(args.id);
                 if (args.formerId) { this.inletList.toggleHighlight(args.formerId); }
-            }, inletListController);
+            }, sideBarController);
         });
     });
 });
